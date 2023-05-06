@@ -1,0 +1,66 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.content{
+  height: 100vh;
+}
+
+.resgister-page{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+}
+
+.filters{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 20px;
+  box-shadow: 0 0 3px gray;
+}
+
+.anticon svg{
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.active-icon{
+  color:black;
+
+}
+.inactive-icon{
+  color:grey;
+}
+
+.switch-icon{
+  border:1px solid rgba(0, 0, 0, 0.52) ;
+  border-radius: 5px;
+  padding: 10px 15px;
+}
+.filters{
+  border-radius: 10px;
+  margin: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.cnt{
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 5px;
+}
+
+.f{
+  padding-right:10px ;
+}
+
+.s{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.t{
+  padding-left: 10px;
+}
